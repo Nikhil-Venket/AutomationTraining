@@ -1,10 +1,12 @@
 package USPOLO;
-
+//class contains variables,methods,main method,object
 public class Tmodel extends Tshirt {
     int Count;
     String Colour;
     char Size;
-
+// Static method is first exection 
+// we declare public static can we call the method as global
+//static block execution stack from when we run the program    
     static {
         System.out.println("USpolo-Tshirt");
     }
@@ -32,6 +34,8 @@ public class Tmodel extends Tshirt {
     }
 
     public static void main(String[] args) {
+        
+        //object gives memory allocation
         Tmodel mod=new Tmodel(1000,"White", 'L');
         mod.User1();
         mod.User2();
