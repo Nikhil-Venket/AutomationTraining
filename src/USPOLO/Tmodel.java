@@ -5,12 +5,14 @@ public class Tmodel extends Tshirt {
     String Colour;
     char Size;
 
-    static {
+    static
+    {
         System.out.println("USpolo-Tshirt");
     }
 
-    Tmodel(int Count, String Colour, char Size) {
-        this.Count = Count;
+    Tmodel(int i, String Colour, char Size)
+    {
+        this.Count = i;
         this.Colour = Colour;
         this.Size = Size;
         System.out.println("USPOLO T-shirt");
